@@ -6,6 +6,9 @@ html {
   box-sizing: border-box;
 }
 
+
+
+
 #piano {
   background-color: #00471b;
   width: 992px;
@@ -32,6 +35,11 @@ html {
   margin: 2px;
   float: left;
   border-radius: 0 0 3px 3px;
+  transition: all 1s;
+}
+
+.key:hover {
+  transform: scale(1.1);
 }
 
 .key.black--key::after {
